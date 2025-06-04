@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: #772432;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  height: 400px;
+  margin: auto;
+}
+
+header {
+  background-color: #004165;
+  color: white;
+  padding: 1rem 0;
+}
+
+header h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://www.toastmasters.org/-/media/images/hero/hero-toastmasters.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero .btn {
+  background: #004165;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.section {
+  padding: 50px 20px;
+  background-color: #004165;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  background: #772432;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #772432;
+  color:white
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #F2DF74;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #004165;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 40px;
+}
